@@ -15,7 +15,7 @@ public class DesiredCapabilityIOS {
         desired.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone X");
         desired.setCapability(MobileCapabilityType.PLATFORM_NAME, "iOS");
         desired.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
-        desired.setCapability(MobileCapabilityType.APP, "/Users/anoopambunhi/Desktop");
+        desired.setCapability(MobileCapabilityType.APP, "/Users/anoopambunhi/Desktop/Tajawal.ipa");
 
         IOSDriver<IOSElement> driver = new IOSDriver<IOSElement>(new URL("http://127.0.0.1:4723/wd/hub"), desired);
         return driver;
